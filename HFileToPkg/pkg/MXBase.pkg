@@ -1,0 +1,19 @@
+
+$#include "MXBase.h"
+$#include "cocos2d.h"
+
+class MXBase : public CCNode 
+{
+
+     
+     MXBase();
+     
+     ~MXBase();
+     
+     static MXBase* create();
+     
+     bool init();
+ 
+};
+
+
